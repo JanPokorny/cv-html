@@ -20,7 +20,9 @@ I made this for my friends who I couldn't bear seeing struggle with LaTeX. Micro
     - If you don't want a photo, remove the `<picture>...</picture>` block and set `--photo-size: 0;` in the `<style>` block in `cv.html`.
 3. Open `cv.html` in a text editor or IDE. (If you don't have one, install [Sublime Text](https://www.sublimetext.com/) which is easy to use.)
 4. Edit the text in `cv.html` to replace Karel's information with yours. It uses standard HTML syntax with some custom elements (prefixed `cv-`). The strucutre is quite flexible, you can infer the meaning of each tag from context.
+    - If you write in a language other than English, change the language code on the line `<html lang="en">` near the very top, e.g. `<html lang="cs">` for Czech. This is important so that word splitting at line breaks works correctly.
     - Do not forget to change the `<title>`.
+    - Most elements work on their own, you can rearrange them as you like.
     - You can customize some basic styling in the `<style>` block near the top -- colors (use a [color picker](https://google.com/search?q=color+picker) to get the hex codes), sizes, margins, column rations.
     - The used icon pack is Boxicons, [you can find tags for more icons here](https://boxicons.com/icons/phone?s=regular&w=normal&p=basic&free=true).
     - For more advanced styling, edit `cv.css` directly.
