@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cv.css">
+  <title>Karel Sedláček</title>
+</head>
+
+<style>
+:root {
+  --color-accent: #a95134;
+  --color-gray-light: #c7c7c7;
+  --color-gray-dark: #444444;
+  --font-size: 13px;
+  --line-height: 1.3;
+  --hyphens: auto;
+  --photo-size: 100px;
+  --print-margins: 15mm 15mm;
+  --grid-template-columns: 1fr 1fr;
+}
+</style>
+
+<body>
+  <cv-header>
+    <cv-name>Karel Sedláček</cv-name>
+    <cv-contact>
+      <p>
+        <i class="bx bxs-location"></i>
+        Prague
+      </p>
+      <p>
+        <i class="bx bx-at"></i>
+        <a href="mailto:karel.sedlacek.ml@gmail.com">karel.sedlacek@email.com</a>
+      </p>
+      <p>
+        <i class="bx bxs-phone"></i>
+        <a href="tel:+420800123456">+420 800 123 456</a>
+      </p>
+      <p>
+        <i class="bxl bx-linkedin-square"></i>
+        <a href="https://example.com/in/karel-sedlacek">karel-sedlacek</a>
+      </p>
+    </cv-contact>
+    <picture>
+      <img src="cv.jpg">
+    </picture>
+  </cv-header>
+
+  <cv-main>
+    <cv-column>
+      <cv-section-title>Work Experience</cv-section-title>
+
+      <cv-item-title>Software Engineer</cv-item-title>
+      <cv-item-subtitle>OpenAI Research (USA)</cv-item-subtitle>
+      <cv-item-meta>
+        <p>
+          <i class="bx bx-calendar-alt"></i>
+          1/2023 &ndash; present
+        </p>
+        <p>
+          <i class="bx bxs-location"></i>
+          San Francisco
+        </p>
+      </cv-item-meta>
+      <li>Development of distributed tools for machine learning focused on scalability and efficiency with large datasets.</li>
+      <li>Collaboration with researchers on architecture design for large language models.</li>
+      <li>Performance optimization for deployment in production cloud environments.</li>
+      <li>Support of open-source projects and mentoring junior colleagues.</li>
+
+      <hr>
+
+      <cv-item-title>Backend Developer</cv-item-title>
+      <cv-item-subtitle>Red Hat Czech s.r.o.</cv-item-subtitle>
+      <cv-item-meta>
+        <p>
+          <i class="bx bx-calendar-alt"></i>
+          6/2020 &ndash; 12/2022
+        </p>
+        <p>
+          <i class="bx bxs-location"></i>
+          Brno
+        </p>
+      </cv-item-meta>
+      <li>Development of server components for cloud services and container management.</li>
+      <li>Design and implementation of APIs for communication between microservices.</li>
+      <li>Collaboration with international teams, integration support in Kubernetes clusters.</li>
+
+      <hr>
+
+      <cv-item-title>Data Engineer (internship)</cv-item-title>
+      <cv-item-subtitle>MIT Media Lab</cv-item-subtitle>
+      <cv-item-meta>
+        <p>
+          <i class="bx bx-calendar-alt"></i>
+          9/2019 &ndash; 5/2020
+        </p>
+        <p>
+          <i class="bx bxs-location"></i>
+          Cambridge, USA
+        </p>
+      </cv-item-meta>
+      <li>Contributed to the design of systems for big data processing and visualization.</li>
+      <li>Worked with distributed databases and real-time data streaming.</li>
+      <li>Developed visualization tools for knowledge used in interdisciplinary projects.</li>
+
+      <hr>
+
+      <cv-item-title>Junior Developer</cv-item-title>
+      <cv-item-subtitle>Start-up DataBridge</cv-item-subtitle>
+      <cv-item-meta>
+        <p>
+          <i class="bx bx-calendar-alt"></i>
+          7/2017 &ndash; 8/2019
+        </p>
+        <p>
+          <i class="bx bxs-location"></i>
+          Prague
+        </p>
+      </cv-item-meta>
+      <li>Development of internal applications for data management and reporting.</li>
+      <li>Support of database systems and implementation of new modules.</li>
+      <li>Maintenance of cloud solutions and deployment on AWS and Azure platforms.</li>
+
+    </cv-column>
+
+    <cv-column>
+      <cv-section-title>Education</cv-section-title>
+      <cv-item-title>Computer Science (MSc.)</cv-item-title>
+      <cv-item-subtitle>Massachusetts Institute of Technology</cv-item-subtitle>
+      <hr>
+      <cv-item-title>Botičská Gymnasium</cv-item-title>
+      <cv-item-subtitle>Prague</cv-item-subtitle>
+
+      <cv-section-title>Licenses & Certifications</cv-section-title>
+      <cv-tag>Driver’s License B</cv-tag>
+      <cv-tag>AWS Cloud Practitioner Certification</cv-tag>
+      <cv-tag>Certified Kubernetes Administrator</cv-tag>
+
+      <cv-section-title>Activities</cv-section-title>
+      <cv-item-title>Organizer PNOC</cv-item-title>
+      <cv-item-subtitle>Botičská Gymnasium</cv-item-subtitle>
+      <cv-item-meta>
+        <p>
+          <i class="bx bx-calendar-alt"></i>
+          2015 &ndash; 2019
+        </p>
+      </cv-item-meta>
+      <p>Co-founder of student lecture event PNOC, where students present to students.</p>
+
+      <hr>
+
+      <cv-item-title>Lecturer &mdash; programming outreach</cv-item-title>
+      <cv-item-subtitle>Various high schools</cv-item-subtitle>
+      <p>Workshops on algorithmics and open-source tools.</p>
+
+      <cv-section-title>Skills</cv-section-title>
+      <cv-tag>Python</cv-tag>
+      <cv-tag>Java</cv-tag>
+      <cv-tag>SQL</cv-tag>
+      <cv-tag>Distributed Systems</cv-tag>
+      <hr>
+      <cv-tag>Docker</cv-tag>
+      <cv-tag>Kubernetes</cv-tag>
+      <cv-tag>Linux</cv-tag>
+      <cv-tag>Git</cv-tag>
+      <hr>
+      <cv-tag>English C2 level</cv-tag>
+      <cv-tag>German B2 level</cv-tag>
+
+      <cv-section-title>Languages</cv-section-title>
+      <cv-rating>
+        <span>English</span>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle"></i>
+      </cv-rating>
+      <hr>
+      <cv-rating>
+        <span>German</span>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle"></i>
+        <i class="bx bxs-circle-half"></i>
+        <i class="bx bx-circle"></i>
+        <i class="bx bx-circle"></i>
+      </cv-rating>
+
+    </cv-column>
+  </cv-main>
+</body>
+
+</html>
