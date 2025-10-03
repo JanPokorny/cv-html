@@ -1,8 +1,16 @@
-<h1 align="center">cv.html</h1>
+<div align="center">
+    
+# cv.html
 
-<h3 align="center">Beautiful, flexible and easy to edit CV template</h3>
+### Beautiful, flexible and easy to edit CV template
 
-I made this for my friends who I couldn't bear seeing struggle with LaTeX. `cv.html` is written in HTML, and all you need is a text editor and a web browser to make it your own.
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d7a14fb1-3297-4f7e-9c04-eb8acb8eec6f" />
+
+</div>
+
+## About
+
+I made this for my friends who I couldn't bear seeing struggle with LaTeX. Microsoft Word isn't that great for non-trivial layouts either, and online resume builders are either paid or have ugly templates. That's why I wrote `cv.html`: all you need is a text editor and a web browser to create a CV. It requires manually editing HTML source code, but I deliberately made it as simple as possible. Worst case, you learn a bit of HTML and put it on your CV. Or ask your local friendly LLM for help.
 
 ## How to use
 
@@ -25,6 +33,7 @@ I made this for my friends who I couldn't bear seeing struggle with LaTeX. `cv.h
 
 - Single-page only at the moment
 - Not all features of AltaCV are implemented yet
+- Not actually usable as a webpage due to lack of mobile support, the supported use is printing to PDF from a desktop browser
 
 ## Acknowledgements
 
