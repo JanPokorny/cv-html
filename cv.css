@@ -57,7 +57,10 @@ body {
 cv-header {
   position: relative;
   display: block;
-  justify-content: space-between;
+  justify-content: center;
+  min-height: var(--photo-size);
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   margin-bottom: 5px;
 
@@ -104,7 +107,7 @@ cv-header {
 cv-main {
   display: grid;
   grid-template-columns: var(--grid-template-columns);
-  gap: 30px;
+  gap: var(--gap);
 }
 
 cv-section-title {
